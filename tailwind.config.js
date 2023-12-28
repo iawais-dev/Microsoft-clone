@@ -2,9 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
+
     screens: {
 
       's':'401px',
+      'ssm': '540px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -15,9 +17,12 @@ module.exports = {
       // => @media (min-width: 1024px) { ... }
       'mlg':'1085px',
       'xl': '1280px',
+      'xxl': '1360px',
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1536px',
+      '2xxl': '1720px',
+      '3xl': '1773px'
       // => @media (min-width: 1536px) { ... }
     }
     
